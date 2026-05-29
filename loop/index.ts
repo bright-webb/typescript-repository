@@ -75,4 +75,12 @@ for(let row = 0; row < 5; row++) {
     console.log(stars);
 }
 
+for(let row = 5; row > 0; row--) {
+    let stars = "";
+    for(let col = 0; col < row; col++) {
+        stars += "* ";
+    }
+    console.log(stars);
+}
+
 
